@@ -24,9 +24,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "xiyao.JPG"
-  name             : "Your Sidebar Name"
+  name             : "Xiyao Cheng"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD"
   location         : "Columbia, MO, US"
   employer         : "University of Missouri"
   uri              : # URL
