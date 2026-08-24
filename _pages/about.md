@@ -3,8 +3,8 @@ permalink: /
 title: "Publications"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /publications/
+  - /publications.html
 ---
 
 This page is not updated frequently. Please find my most up-to-date articles on my [Google Scholar profile](https://scholar.google.com/citations?user=sd4Zd1wAAAAJ&hl=en).
