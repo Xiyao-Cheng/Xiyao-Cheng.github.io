@@ -9,6 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-CV
-======
-Please find my detailed CV [here](/files/CV_XiyaoCheng.pdf).
+Please find my detailed CV [here](/files/CV_Xiyao.pdf).
