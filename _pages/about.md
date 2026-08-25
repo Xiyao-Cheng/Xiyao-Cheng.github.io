@@ -1,54 +1,25 @@
 ---
 permalink: /
-title: "Publications"
+title: "AboutMe"
 author_profile: true
 redirect_from: 
-  - /publications/
-  - /publications.html
+  - /about/
+  - /about.html
 ---
 
-This page is not updated frequently. Please find my most up-to-date articles on my [Google Scholar profile](https://scholar.google.com/citations?user=sd4Zd1wAAAAJ&hl=en).
+I am a Ph.D. in the Department of Electrical Engineering & Computer Science at the University of Missouri–Columbia, advised by [Prof. Prasad Calyam](https://www.prasadcalyam.com/). My research sits at the intersection of computational network science, human-centered AI, and knowledge-driven systems, with a focus on building intelligent methods that help people discover, understand, and connect within complex information networks.
 
-Journal Papers or Articles
-======
+My work spans several interconnected threads:
 
-- **(J9)** **Cheng, X.**, Rayhan, M., Pandey A., Zhang Y., Kejriwal M., & Calyam P. *ScholarInfluencer: AI-driven Role-Aware Scholar Recommendations based on Temporal Graph Networks*. ACM Transactions on Knowledge Discovery from Data, 2026. *Under Review.* **Impact Factor: 4.9**
+- **Computational Network Science** — I develop graph and hypergraph-based methods for modeling complex relational structures, with applications ranging from scholarly collaboration discovery to team formation in academic social networks.
+- **Human-Centered AI and Conversational Intelligence** — I design LLM-enhanced recommendation systems and dialogue-based interfaces that prioritize usability and trust, including applications in healthcare knowledge discovery.
+- **Knowledge-driven Cyber Defense** — I build knowledge graph-based approaches for security and trust modeling in distributed and networked systems.
+- **AI for Social Good** — I apply these methods to real-world domains including healthcare, education, and public-facing information systems, aiming to translate technical innovation into tangible societal benefit.
 
-- **(J8)** **Cheng, X.**, Rayhan, M., Edara Lakshmi S., Pandey A., Zhang Y., Kejriwal M., & Calyam P. *Knowledge Graph-based Modeling for Identifying Scholar Teams in Academic Social Networks*. IEEE Transactions on Artificial Intelligence, 2026. *Under Review.* **Impact Factor: 6.4**
+Across these threads, my broader goal is to develop AI systems that are not only technically robust but also interpretable and genuinely useful to the people who rely on them, whether that's a researcher searching for collaborators, a patient navigating health information, or a student learning a new skill.
 
-- **(J7)** Zhang, Y., **Cheng, X.**, Oruche, R., Sivarathri, S. S., & Calyam, P. *ScholarFinder: Knowledge Embedding Based Recommendations Using a Deep Embedded Clustering Model*. IEEE Transactions on Big Data, 2025. **Impact Factor: 5.7**
+Before my Ph.D., I completed my Master's at China Agricultural University under Prof. Ying Chen, where I worked on natural language processing for emotion analysis and text classification. This early experience in NLP continues to inform how I think about human-centered AI design today.
 
-- **(J6)** Oruche, R., Goruganthu, S. K., Akula, R., **Cheng, X.**, Md Goni, A., Shibo, B. W., Kee, K., Zampieri, M., & Calyam, P. *A Survey on the Recent Advancements in Human-Centered Dialog Systems*. ACM Computing Surveys, 2025. **Impact Factor: 28.0**
+I have also had the opportunity to mentor and teach over 300 undergraduate and graduate students as a teaching assistant at Mizzou, covering courses in cloud computing, algorithm design, and computer networks, an experience that has shaped my commitment to accessible, engaging computer science education.
 
-- **(J5)** Oruche, R., **Cheng, X.**, Zeng, Z., Vazzana, A., Goni, M. A., Shibo, B. W., Goruganthu, S. K., Kee, K., & Calyam, P. *Chatbot Dialog Design for Improved Human Performance in Domain Knowledge Discovery*. IEEE Transactions on Human-Machine Systems, 2025. **Impact Factor: 4.9**
-
-- **(J4)** Neupane, R. L., Calyam, P., Wang, S., Neupane, K., Pandey, A., **Cheng, X.**, Gafurov, D., et al. *Online Self-Service Learning Platform for Application-Inspired Cloud Development and Operations (DevOps) Curriculum*. IEEE Transactions on Learning Technologies, 2024. **Impact Factor: 4.9**
-
-- **(J3)** Oruche, R., Milman, E. D., Lemus Alarcon, M., **Cheng, X.**, Pandey, A., Wang, S., Calyam, P., & Kee, K. *Science Gateway Adoption Using Plug-in Middleware for Evidence-Based Healthcare Data Management*. Concurrency and Computation: Practice and Experience, e7195, 2022.
-
-- **(J2)** **Cheng, X.**, Chen, Y., Cheng, B. X., et al. *An Emotion Cause Corpus for Chinese Microblogs with Multiple-user Structures*. ACM Transactions on Asian and Low-Resource Language Information Processing, 17(1):1–19, 2017.
-
-- **(J1)** Chen, Y., Cheng, B. X., **Cheng, X.** *Food Safety Document Classification Using LSTM-based Ensemble Learning*. Revista Tecnica de la Facultad de Ingenieria Universidad del Zulia, 39(10):172–178, 2016.
-
-
-Conference Papers
-======
-
-- **(C9)** **Cheng, X.**, Roy, U., Pandey A., Chakraborty N., Chakraborty S., & Calyam, P. *Heterogeneous Hypergraph Attention Network for Scholar Recommendation and Team Formation*. In *35th International ACM Conference on Knowledge and Information Management (CIKM 2026)*, pp. 1–11, 2026. **Acceptance Rate: 27%**
-
-- **(C8)** **Cheng, X.**, Edara, L. S., Zhang, Y., Kejriwal, M., & Calyam, P. *Influence Role Recognition and LLM-Based Scholar Recommendation in Academic Social Networks*. In *Proceedings of the 11th IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pp. 1–11, 2024. **Acceptance Rate: 25%**
-
-- **(C7)** Shibo, B. W., Oruche, R., Goni, M. A., **Cheng, X.**, Milman, E., Calyam, P., & Kee, K. *Sifting Through Clutter and Finding Answers that Utter Among COVID-19 Data for Medical Users via Gateways*. 2023.
-
-- **(C6)** Neupane, K., Yeddulapalli, H. S., Kambhampati, A., **Cheng, X.**, Neupane, R. L., Kung, E. L., Rinehart, A., & Calyam, P. *Automation of News Content Curation and Storytelling for Local Newsrooms*. In *Proceedings of IEEE HPCC/DSS/SmartCity/DependSys*, pp. 1051–1060, 2023.
-
-- **(C5)** **Cheng, X.**, Zhang, Y., Joshi, H., Kejriwal, M., & Calyam, P. *Knowledge Graph-based Embedding for Connecting Scholars in Academic Social Networks*. In *Proceedings of the 10th IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pp. 1–10, 2023.
-
-- **(C4)** Wang, S., Neupane, R., Pandey, A., **Cheng, X.**, & Calyam, P. *Online Learning Platform for Application-Inspired Cloud and DevOps Curriculum*. In *Proceedings of IEEE HiPC Workshops*, pp. 35–42, 2021.
-
-- **(C3)** Oruche, R., Milman, E. D., **Cheng, X.**, Joish, M., Kulkarni, C., Sharma, A., Kee, K., Regunath, H., & Calyam, P. *Measurement of Utility in User Access of COVID-19 Literature via AI-powered Chatbot*. In *Proceedings of IEEE AIPR*, pp. 1–13, 2021.
-
-- **(C2)** Chen, Y., Hou, W., **Cheng, X.**, & Li, S. *Joint Learning for Emotion Classification and Emotion Cause Detection*. In *Proceedings of EMNLP*, pp. 646–651, 2018. **Acceptance Rate: 20.8%**
-
-- **(C1)** Chen, Y., Hou, W., & **Cheng, X.** *Hierarchical Convolution Neural Network for Emotion Cause Detection on Microblogs*. In *ICANN 2018*, Part I, pp. 115–122. Springer, 2018.
-
+I am currently on the academic job market, seeking a faculty position where I can continue this interdisciplinary research agenda and build a research group at the intersection of AI, network science, and human-centered computing. Please see my [CV](/cv/) and [Publications](/publications/) pages for more details, or feel free to reach out at xcheng@missouri.edu.
