@@ -5,6 +5,7 @@ category: journals
 permalink: /publication/2026-scholarinfluencer
 excerpt: ''
 date: 2026-01-01
+status: 'under_review'
 venue: 'ACM Transactions on Knowledge Discovery from Data'
 citation: '(J9) <b>Cheng, X.</b>, Rayhan, M., Pandey A., Zhang Y., Kejriwal M., &amp; Calyam P. &quot;ScholarInfluencer: AI-driven Role-Aware Scholar Recommendations based on Temporal Graph Networks.&quot; <i>ACM Transactions on Knowledge Discovery from Data</i>, 2026. <i>Under Review.</i> <b>Impact Factor: 4.9</b>'
 ---
