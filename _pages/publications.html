@@ -1,47 +1,36 @@
 ---
+layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-You can also find my articles on <a href="https://scholar.google.com/citations?user=sd4Zd1wAAAAJ&hl=en">my Google Scholar profile</a>.
+{% if site.author.googlescholar %}
+  <div class="wordwrap">This page is not updated frequently. You can also find my articles on <a href="https://scholar.google.com/citations?user=sd4Zd1wAAAAJ&hl=en">my Google Scholar profile</a>.</div>
+{% endif %}
 
-## Journal Papers or Articles
+{% include base_path %}
 
-- **(J9) X. Cheng**, M. Rayhan, A. Pandey, Y. Zhang, M. Kejriwal, P. Calyam. "ScholarInfluencer: AI-driven Role-Aware Scholar Recommendations based on Temporal Graph Networks." *ACM Transactions on Knowledge Discovery from Data*, 2026. Under Review. [Link](#) **Impact Factor: 4.9**
-
-- **(J8) X. Cheng**, M. Rayhan, L. S. Edara, A. Pandey, Y. Zhang, M. Kejriwal, P. Calyam. "Knowledge Graph-based Modeling for Identifying Scholar Teams in Academic Social Networks." *IEEE Transactions on Artificial Intelligence*, 2026. Under Review. [Link](#) **Impact Factor: 6.4**
-
-- Y. Zhang, **X. Cheng**, R. Oruche, S. S. Sivarathri, P. Calyam. "ScholarFinder: Knowledge Embedding Based Recommendations Using a Deep Embedded Clustering Model." *IEEE Transactions on Big Data*, 2025. [Link](#) **Impact Factor: 5.7** (J7)
-
-- R. Oruche, S. K. Goruganthu, R. Akula, **X. Cheng**, A. Md Goni, B. W. Shibo, K. Kee, M. Zampieri, P. Calyam. "A Survey on the Recent Advancements in Human-Centered Dialog Systems." *ACM Computing Surveys*, 2025. [Link](#) **Impact Factor: 28.0** (J6)
-
-- R. Oruche, **X. Cheng**, Z. Zeng, A. Vazzana, M. A. Goni, B. W. Shibo, S. K. Goruganthu, K. Kee, P. Calyam. "Chatbot Dialog Design for Improved Human Performance in Domain Knowledge Discovery." *IEEE Transactions on Human-Machine Systems*, 2025. [Link](#) **Impact Factor: 4.9** (J5)
-
-- R. L. Neupane, P. Calyam, S. Wang, K. Neupane, A. Pandey, **X. Cheng**, D. Gafurov, et al. "Online Self-Service Learning Platform for Application-Inspired Cloud Development and Operations (DevOps) Curriculum." *IEEE Transactions on Learning Technologies*, 2024. [Link](#) **Impact Factor: 4.9** (J4)
-
-- R. Oruche, E. D. Milman, M. Lemus Alarcon, **X. Cheng**, A. Pandey, S. Wang, P. Calyam, K. Kee. "Science gateway adoption using plug-in middleware for evidence-based healthcare data management." *Concurrency and Computation: Practice and Experience*, e7195, 2022. [Link](#) (J3)
-
-- **X. Cheng**, Y. Chen, B. X. Cheng, et al. "An Emotion Cause Corpus for Chinese Microblogs with Multiple-user Structures." *ACM Transactions on Asian and Low-Resource Language Information Processing*, 17(1):1–19, 2017. [Link](#) (J2)
-
-- Y. Chen, B. X. Cheng, **X. Cheng**. "Food Safety Document Classification Using LSTM-based Ensemble Learning." *Revista Tecnica de la Facultad de Ingenieria Universidad del Zulia*, 39(10):172–178, 2016. [Link](#) (J1)
-
-## Conference Papers
-
-- **X. Cheng**, U. Roy, A. Pandey, N. Chakraborty, S. Chakraborty, P. Calyam. "Heterogeneous Hypergraph Attention Network for Scholar Recommendation and Team Formation." In *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*, pp. 1–11, 2026. [Link](#) **Acceptance Rate: 27%** (C9)
-
-- **X. Cheng**, L. S. Edara, Y. Zhang, M. Kejriwal, P. Calyam. "Influence Role Recognition and LLM-Based Scholar Recommendation in Academic Social Networks." In *Proceedings of the 11th IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pp. 1–11, 2024. [Link](#) **Acceptance Rate: 25%** (C8)
-
-- B. W. Shibo, R. Oruche, M. A. Goni, **X. Cheng**, E. Milman, P. Calyam, K. Kee. "Sifting Through Clutter and Finding Answers that Utter Among COVID-19 Data for Medical Users via Gateways." 2023. [Link](#) (C7)
-
-- K. Neupane, H. S. Yeddulapalli, A. Kambhampati, **X. Cheng**, R. L. Neupane, E. L. Kung, A. Rinehart, P. Calyam. "Automation of News Content Curation and Storytelling for Local Newsrooms." In *Proceedings of IEEE HPCC/DSS/SmartCity/DependSys*, pp. 1051–1060, 2023. [Link](#) (C6)
-
-- **X. Cheng**, Y. Zhang, H. Joshi, M. Kejriwal, P. Calyam. "Knowledge graph-based embedding for connecting scholars in academic social networks." In *Proceedings of the 10th IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pp. 1–10, 2023. [Link](#) (C5)
-
-- S. Wang, R. Neupane, A. Pandey, **X. Cheng**, P. Calyam. "Online Learning Platform for Application-Inspired Cloud and DevOps Curriculum." In *Proceedings of IEEE HiPC Workshops*, pp. 35–42, 2021. [Link](#) (C4)
-
-- R. Oruche, E. D. Milman, **X. Cheng**, M. Joish, C. Kulkarni, A. Sharma, K. Kee, H. Regunath, P. Calyam. "Measurement of Utility in User Access of COVID-19 Literature via AI-powered Chatbot." In *Proceedings of IEEE AIPR*, pp. 1–13, 2021. [Link](#) (C3)
-
-- Y. Chen, W. Hou, **X. Cheng**, S. Li. "Joint learning for emotion classification and emotion cause detection." In *Proceedings of EMNLP*, pp. 646–651, 2018. [Link](#) **Acceptance Rate: 20.8%** (C2)
-
-- Y. Chen, W. Hou, **X. Cheng**. "Hierarchical convolution neural network for emotion cause detection on microblogs." In *ICANN 2018, Part I*, pp. 115–122. Springer, 2018. [Link](#) (C1)
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% assign posts_in_category = site.publications | where: "category", category[0] %}
+    {% assign counter = posts_in_category | size %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html number=counter %}
+      {% assign counter = counter | minus: 1 %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
