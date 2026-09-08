@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, Cloud Computing"
+title: "Cloud Computing"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2022-2025-cloud-computing
