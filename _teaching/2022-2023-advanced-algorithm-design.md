@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, Advanced Algorithm Design"
+title: "Advanced Algorithm Design"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2022-2023-advanced-algorithm-design
