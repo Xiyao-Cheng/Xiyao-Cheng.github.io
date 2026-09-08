@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, Computer Network"
+title: "Computer Network"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2023-2026-computer-network
