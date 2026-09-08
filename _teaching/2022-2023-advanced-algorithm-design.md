@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2022-2023-advanced-algorithm-design
 venue: "University of Missouri-Columbia"
-date: 2022-08-01
+date: 2023-01-01
 location: "Columbia, MO"
 ---
 
