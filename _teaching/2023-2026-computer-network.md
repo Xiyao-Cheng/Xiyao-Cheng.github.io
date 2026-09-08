@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2023-2026-computer-network
 venue: "University of Missouri-Columbia"
-date: 2023-08-02
+date: 2026-01-01
 location: "Columbia, MO"
 ---
 
