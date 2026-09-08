@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2022-2025-cloud-computing
 venue: "University of Missouri-Columbia"
-date: 2022-01-01
+date: 2025-08-01
 location: "Columbia, MO"
 ---
 
