@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, Algorithm Design and Programming I"
+title: "Algorithm Design and Programming I"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2023-2026-algorithm-design-programming
