@@ -7,5 +7,5 @@ excerpt: ''
 date: 2025-05-12
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11073642'
 venue: 'NOMS 2025-2025 IEEE Network Operations and Management Symposium'
-citation: 'Neupane, Roshan Lal, Vamsi Pusapati, Lakshmi Srinivas Edara, <b>Xiyao Cheng</b>, Kiran Neupane, Harshavardhan Chintapatla, Reshmi Mitra et al. "Securing Inverter-Based Resources via Knowledge-Driven Threat Modeling, Analysis, and Mitigation." In <i>NOMS 2025-2025 IEEE Network Operations and Management Symposium</i>, pp. 1-9. IEEE, 2025.'
+citation: 'Neupane, R.L., Pusapati, V., Edara, L.S., <b>Cheng, X.</b>, Neupane, K., Chintapatla, H., Mitra, R., Korkali, M., Na, H.S., Srinivas, S. and Calyam, P., 2025, May. Securing Inverter-Based Resources via Knowledge-Driven Threat Modeling, Analysis, and Mitigation. In <i>NOMS 2025-2025 IEEE Network Operations and Management Symposium (pp. 1-9)</i>. IEEE.'
 ---
