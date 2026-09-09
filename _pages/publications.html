@@ -14,23 +14,40 @@ author_profile: true
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category %}
-    {% assign title_shown = false %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}
-    {% assign counter = posts_in_category | size %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html number=counter %}
-      {% assign counter = counter | minus: 1 %}
-    {% endfor %}
+
+    {% if posts_in_category.size > 0 %}
+      <h2>{{ category[1].title }}</h2><hr />
+
+
+      {% assign published_posts = posts_in_category | where_exp: "p", "p.status != 'under_review'" %}
+      {% assign under_review_posts = posts_in_category | where_exp: "p", "p.status == 'under_review'" %}
+
+
+      {% assign published_sorted = published_posts | sort: "date" | reverse %}
+
+      {% assign under_review_sorted = under_review_posts | sort: "date" | reverse %}
+
+      {% assign ordered_posts = published_sorted | concat: under_review_sorted %}
+
+      {% assign counter = 1 %}
+      {% for post in ordered_posts %}
+        {% include archive-single.html number=counter %}
+        {% assign counter = counter | plus: 1 %}
+      {% endfor %}
+    {% endif %}
+
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+  {% assign published_posts = site.publications | where_exp: "p", "p.status != 'under_review'" %}
+  {% assign under_review_posts = site.publications | where_exp: "p", "p.status == 'under_review'" %}
+  {% assign published_sorted = published_posts | sort: "date" | reverse %}
+  {% assign under_review_sorted = under_review_posts | sort: "date" | reverse %}
+  {% assign ordered_posts = published_sorted | concat: under_review_sorted %}
+
+  {% assign counter = 1 %}
+  {% for post in ordered_posts %}
+    {% include archive-single.html number=counter %}
+    {% assign counter = counter | plus: 1 %}
   {% endfor %}
 {% endif %}
