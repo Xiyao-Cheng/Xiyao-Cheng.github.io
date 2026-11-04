@@ -9,4 +9,5 @@ location: "Columbia, MO, USA"
 ---
 November 2026
 
-Delivered a guest lecture titled "Heterogeneous Hypergraph Attention Network for Scholar Recommendation and Team Formation​" to 40 students, covering deploying AI and LLM services on cloud infrastructure, including a hands-on demonstration of my research project.
+Invited by Dr. Alicia Esquivel Morel to deliver a guest lecture on Heterogeneous Hypergraph Attention Network for Scholar Recommendation and Team Formation to 40+ undergraduate and graduate students.
+Covered deploying AI and LLM services on cloud infrastructure, including a hands-on demonstration of my research project.
