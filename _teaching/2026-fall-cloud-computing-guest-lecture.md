@@ -1,5 +1,5 @@
 ---
-title: "Guest Lecture: [CS 4530/7530 Cloud Computing]"
+title: "Guest Lecture: CS 4530/7530 Cloud Computing"
 collection: teaching
 type: "Guest Lecture"
 permalink: /teaching/2026-fall-cloud-computing-guest-lecture
